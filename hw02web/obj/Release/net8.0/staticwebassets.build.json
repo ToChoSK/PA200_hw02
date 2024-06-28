@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "983pW82vdG93aXe14an+jHmeaYISY5BjEI1205XF/Sc=",
+  "Source": "hw02web",
+  "BasePath": "_content/hw02web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw02web\\wwwroot",
+      "Source": "hw02web",
+      "ContentRoot": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\wwwroot\\",
+      "BasePath": "_content/hw02web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\wwwroot\\index.html",
+      "SourceId": "hw02web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\wwwroot\\",
+      "BasePath": "_content/hw02web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

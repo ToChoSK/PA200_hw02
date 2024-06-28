@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hw02web.props" />
+</Project>
