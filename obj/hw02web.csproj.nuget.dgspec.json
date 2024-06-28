@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\hw02web.csproj": {}
+    "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\hw02web.csproj": {
+    "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\hw02web.csproj",
+        "projectUniqueName": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web.csproj",
         "projectName": "hw02web",
-        "projectPath": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\hw02web.csproj",
+        "projectPath": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web.csproj",
         "packagesPath": "C:\\Users\\ToCho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\hw02web\\obj\\",
+        "outputPath": "C:\\Users\\ToCho\\Desktop\\8SEMESTER\\PA200\\PA200_hw02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ToCho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.20.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

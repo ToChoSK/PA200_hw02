@@ -1,11 +1,4 @@
 {
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "AllowedHosts": "*"
   "ConnectionStrings": {
     "AzureBlobStorage": "DefaultEndpointsProtocol=https;AccountName=hw02;AccountKey=your_account_key;EndpointSuffix=core.windows.net"
   }
